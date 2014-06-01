@@ -4,7 +4,7 @@ A base route for [cherrytree](https://github.com/QubitProducts/cherrytree) that 
 
 E.g.
 
-```
+```js
 var Route = require("backbone-route");
 var SomeView = require("./some_view");
 
@@ -16,3 +16,5 @@ module.exports = Route.extend({
   }
 });
 ```
+
+With the above route, when route is activated, the view will be created and injected into the first parent route that also has a view with an `.outlet` element. When the ruote is deactivated, the view is removed.
