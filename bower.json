@@ -1,0 +1,16 @@
+{
+  "name": "backbone-route",
+  "version": "0.1.0",
+  "main": "route",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "cherrytree": ">=0.2.0"
+  } 
+}
